@@ -49,9 +49,7 @@ export default function Navbar() {
     >
       <div
         className={`flex items-center justify-between py-5 transition-all duration-500 ${
-          isFixed ? "px-[8%] lg:px-[16%]" : "px-[8%] lg:px-[5%]"
-        }`}
-      >
+          isFixed ? "px-[8%] lg:px-[10%]":"px-[8%] lg:px-[5%]"   }`}     >
         {/* Logo */}
         <Link
           href="/"
